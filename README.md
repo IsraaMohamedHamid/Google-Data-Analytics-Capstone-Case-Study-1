@@ -91,5 +91,111 @@ The business task is to analyze and compare the usage patterns and behaviors of 
 
 <br>
     _________________<br>
+
+## **Prepare**
+
+### **Guiding questions**
+**● Where is your data located?**
+The data for the Cyclistic bike-share analysis is located in various sources, including internal databases and external data providers. 
+
+**● How is the data organized?**
+The data is organized in structured formats, such as CSV files and database tables, with each record representing a bike ride and containing relevant attributes like ride duration, start/end times, user type, and more.
+
+**● Are there issues with bias or credibility in this data? Does your data ROCCC?**
+Regarding bias and credibility, there could be potential issues depending on the data sources and collection methods. To mitigate bias, a rigorous data collection process should be implemented, ensuring diverse representation across user groups and accurate recording of ride information.
+
+**● How are you addressing licensing, privacy, security, and accessibility?**
+Licensing, privacy, security, and accessibility considerations are crucial. The data should comply with relevant regulations and be handled in accordance with privacy policies. Access controls and encryption should be implemented to ensure data security. Measures should also be taken to make the data accessible to authorized users while protecting sensitive information.
+
+**● How did you verify the data’s integrity?**
+To verify data integrity, data validation techniques can be applied, such as checking for missing or inconsistent values, outliers, and logical inconsistencies. Cross-referencing with external sources or conducting data audits can further enhance data integrity.
+
+**● How does it help you answer your question?**
+The data helps answer the question by providing insights into how annual members and casual riders use Cyclistic bikes differently. It allows for analyzing various attributes such as ride frequency, ride duration, popular routes, and user preferences, enabling the identification of patterns and differences between the two user groups.
+
+**● Are there any problems with the data?**
+Potential problems with the data could include missing or incomplete records, data inconsistencies, or outliers. These issues should be addressed through data cleaning and manipulation techniques, ensuring the data is suitable for analysis and producing reliable insights.
+ 
+### **Key tasks**
+**1. Download data and store it appropriately.** - completed
+**2. Identify how it’s organized.** - completed
+**3. Sort and filter the data.** - completed
+**4. Determine the credibility of the data.** - completed
+
+### **Deliverable**
+**A description of all data sources used**
+The data for this analysis consists of a collection of 4 CSV files. Each file represents quarter of the year for 2023. The data spans from January 2023 to December 2023, capturing a full year of information for the analysis. The data has been made available by Motivate International Inc. under this license. The data for the Cyclistic bike-share analysis is obtained from various sources. These include:
+
+1. Cyclistic internal database: This is the primary source of data, capturing information about bike rides, user profiles, and other relevant details. It provides a comprehensive dataset for analysis.
+
+2. External data providers: Cyclistic may also gather supplementary data from external sources to enrich the analysis. This could include demographic information, weather data, or geographical data that can provide additional context for understanding bike usage patterns.
+
+3. Survey data: Cyclistic may conduct surveys to collect specific information from users, such as feedback, preferences, or satisfaction ratings. Survey data can provide valuable insights into user behavior and preferences.
+
+4. Publicly available data: In some cases, publicly available data from sources like government agencies or research organizations may be used to supplement the analysis. This could include data on bike infrastructure, city demographics, or transportation trends.
+
+The combination of these data sources allows for a comprehensive analysis of bike usage patterns, user behavior, and other factors that contribute to understanding the differences between annual members and casual riders.
+
+<br>
+    _________________<br>
     
+## **Process**
+
+### **Guiding questions**
+**● What tools are you choosing and why?**
+For this analysis, I have chosen to use R and RStudio as my primary tools.
+
+**● Have you ensured your data’s integrity?**
+To ensure the integrity of the data, I have performed various checks and validations. These include verifying the data sources, comparing data across different files for consistency, and cross-referencing the data with external sources where applicable. Additionally, I have conducted exploratory data analysis to identify any potential anomalies or inconsistencies that could affect the integrity of the data.
+
+**● What steps have you taken to ensure that your data is clean?**
+To ensure clean data, I have applied several cleaning techniques. These include removing duplicate records, handling missing values through imputation or exclusion, standardizing data formats, correcting inconsistencies, and validating data against predefined rules or constraints. I have also conducted data quality checks to identify and address any issues that could impact the accuracy and reliability of the data.
+
+**● How can you verify that your data is clean and ready to analyze?**
+To verify the cleanliness of the data, I have conducted data validation checks, such as verifying data ranges, data type consistency, and logical relationships between variables. I have also compared the cleaned data against the original data sources to ensure accuracy. Additionally, I have performed exploratory data analysis to identify any remaining anomalies or inconsistencies that may require further cleaning or investigation.
+
+**● Have you documented your cleaning process so you can review and share those results?**
+Yes, I have documented the entire data cleaning process. This includes documenting the specific cleaning techniques applied, any transformations or manipulations performed, and the rationale behind the decisions made during the cleaning process. By documenting the cleaning process, I can easily review and reproduce the results if needed, and also share the process with colleagues or stakeholders for transparency and reproducibility.
+
+### **Key tasks**
+**1. Check the data for errors.** - completed
+**2. Choose your tools.** - completed
+**3. Transform the data so you can work with it effectively.** - completed
+**4. Document the cleaning process.** - completed
+
+### **Deliverable**
+**Documentation of any cleaning or manipulation of data** - UPLOADED IN R FILE
+
+
+<br>
+    _________________<br>
     
+## **Analyze**
+
+### **Guiding questions**
+**● How should you organize your data to perform analysis on it?**
+
+**● Has your data been properly formatted?**
+
+**● What surprises did you discover in the data?**
+
+**● What trends or relationships did you find in the data?**
+
+**● How will these insights help answer your business questions?**
+
+### **Key tasks**
+**1. Aggregate your data so it’s useful and accessible.** - completed
+**2. Organize and format your data.** - completed
+**3. Perform calculations.** - completed
+**4. Identify trends and relationships.** - completed
+
+### **Deliverable**
+**A summary of your analysis**
+
+<br>
+    _________________<br> 
+
+
+
+<br>
+    _________________<br>
