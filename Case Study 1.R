@@ -148,4 +148,66 @@ popular_start_stations_casual <- divvy_tripdata_2023_v3 %>%
 
 head(popular_start_stations_casual)
 
+# DATA VISUALIZATION
 
+## Visualization of the rider types
+
+divvy_tripdata_2023_v3 %>% 
+  group_by(member_casual) %>% 
+  summarise(total_rider_type = n()) %>% 
+  ggplot(aes(x = member_casual, y = total_rider_type, fill = member_casual)) + 
+  geom_col(position = "dodge") + geom_text(aes(label = total_rider_type, vjust = -0.25))
+
+## Visualization of the rider types ride duration
+
+rider_type_average_duration <- divvy_tripdata_2023_v3 %>% 
+  group_by(member_casual) %>% 
+  summarize(average_ride_length = mean(ride_length))
+
+rider_type_average_duration %>% 
+  ggplot(aes(x = member_casual, y = average_ride_length, fill = member_casual)) +
+  geom_col(position = "dodge") + geom_text(aes(label = average_ride_length, vjust = -0.25))
+
+## Visualization of the usage by members and casual riders by the weekday
+
+divvy_tripdata_2023_v3 %>% 
+  group_by(member_casual, day_of_week) %>% 
+  summarise(number_of_rides = n(),average_duration = mean(ride_length)) %>% 
+  arrange(member_casual, day_of_week)  %>% 
+  ggplot(aes(x = day_of_week, y = average_duration, fill = member_casual)) +
+  geom_col(position = "dodge")
+
+## Visualization of the number of trips by members and casual riders by the weekday
+
+
+divvy_tripdata_2023_v3 %>% 
+  group_by(member_casual, day_of_week) %>% 
+  summarise(number_of_rides = n(),average_duration = mean(ride_length)) %>% 
+  arrange(member_casual, day_of_week)  %>% 
+  ggplot(aes(x = day_of_week, y = number_of_rides, fill = member_casual)) +
+  geom_col(position = "dodge")
+
+## Visualization of the usage by members and casual riders by the month
+
+divvy_tripdata_2023_v3$month <- ordered(divvy_tripdata_2023_v3$month, levels=c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"))
+
+divvy_tripdata_2023_v3 %>% 
+  group_by(member_casual, month) %>% 
+  summarise(number_of_rides = n(),average_duration = mean(ride_length) ) %>% 
+  arrange(member_casual, month)  %>% 
+  ggplot(aes(x = month, y = average_duration, fill = member_casual)) +
+  geom_col(position = "dodge") +
+  geom_text(aes(label = number_of_rides, angle = 90)) +
+  facet_wrap(~member_casual)
+
+## Visualization of the number of trips by members and casual riders by the month
+
+
+divvy_tripdata_2023_v3 %>% 
+  group_by(member_casual, month) %>% 
+  summarise(number_of_rides = n()) %>% 
+  arrange(member_casual, month)  %>% 
+  ggplot(aes(x = month, y = number_of_rides, fill = member_casual)) +
+  geom_col(position = "dodge") +
+  geom_text(aes(label = number_of_rides, angle = 90)) +
+  facet_wrap(~member_casual)
