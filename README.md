@@ -246,16 +246,31 @@ Accessibility is an important consideration in presenting the findings. The pres
 
 ### **Guiding questions**
 **● What is your final conclusion based on your analysis?**
+Based on the analysis, the final conclusion is that annual members and casual riders use Cyclistic bikes differently. Annual members show consistent and frequent usage patterns, indicating that they primarily use the bikes for commuting or regular transportation purposes. In contrast, casual riders exhibit more sporadic usage, often for leisure or recreational activities.
+
 **● How could your team and business apply your insights?**
+The team and business can apply these insights in several ways. Firstly, they can tailor marketing and promotional strategies to attract and retain annual members, focusing on the convenience and reliability of bike commuting. For casual riders, efforts can be directed towards providing more recreational options and improving the user experience for occasional bike users. The insights can also inform decisions regarding bike fleet management, station placement, and pricing strategies.
+
 **● What next steps would you or your stakeholders take based on your findings?**
+Based on the findings, the next steps would involve implementing targeted marketing campaigns to attract new annual members and enhance the overall experience for casual riders. The team could also consider expanding the bike fleet and optimizing station locations based on demand patterns identified in the analysis. Additionally, conducting surveys or user studies to gather qualitative feedback and understand the specific needs and preferences of the customer segments would be beneficial.
+
 **● Is there additional data you could use to expand on your findings?**
+To expand on the findings, additional data could be collected to gain a deeper understanding of customer behavior and preferences. This could include demographic data, user feedback surveys, and contextual information such as weather conditions or events happening in the city. Incorporating data from external sources such as transportation infrastructure or public transit usage could also provide valuable insights for further analysis and decision-making.
 
 ### **Key tasks**
-**1. Create your portfolio.**
-**2. Add your case study.**
-**3. Practice presenting your case study to a friend or family member.**
+**1. Create your portfolio.** - completed
+**2. Add your case study.** - completed
+**3. Practice presenting your case study to a friend or family member.** - completed
 
 ### **Deliverable**
-Your top three recommendations based on your analysis**
-    
+**Your top three recommendations based on your analysis**
+Based on the analysis, here are the top three recommendations:
+
+1. Targeted Marketing Campaigns: Develop targeted marketing campaigns to attract and retain annual members. Highlight the benefits of bike commuting, such as convenience, cost-effectiveness, and health benefits. Utilize digital platforms, social media advertising, and partnerships with local organizations to reach the target audience effectively.
+
+2. Enhance User Experience for Casual Riders: Improve the overall experience for casual riders to encourage more frequent and longer rides. Enhancements could include user-friendly mobile applications, clear signage at stations, and streamlined rental processes. Additionally, consider offering promotions or incentives for casual riders, such as discounted rates for extended rentals or loyalty programs.
+
+3. Optimize Bike Fleet and Station Placement: Use the insights on usage patterns to optimize the bike fleet and station placement. Allocate more bikes to high-demand stations and ensure an adequate supply of bikes during peak hours. Consider expanding the bike network to cover areas with high casual rider potential, such as popular tourist destinations or recreational areas.
+
+These recommendations aim to increase customer acquisition and retention by catering to the specific needs and preferences of annual members and casual riders. By implementing these strategies, Cyclistic can improve customer satisfaction, increase ridership, and ultimately drive business growth.
     
