@@ -174,14 +174,19 @@ Yes, I have documented the entire data cleaning process. This includes documenti
 
 ### **Guiding questions**
 **● How should you organize your data to perform analysis on it?**
+To perform analysis on the data, it is important to organize it in a structured and logical manner. This typically involves structuring the data in a tabular format, where each row represents an individual observation or data point, and each column represents a specific variable or attribute. Additionally, it is beneficial to ensure that the data is properly labeled with meaningful column names and that the data types are appropriately assigned to each variable.
 
 **● Has your data been properly formatted?**
+Yes, prior to analysis, I have ensured that the data has been properly formatted. This includes checking for consistency in data formats across variables, such as date formats, numeric formats, and categorical formats. I have also addressed any formatting issues or inconsistencies, such as leading or trailing spaces, inconsistent capitalization, or inconsistent encoding, to ensure that the data is in a clean and consistent format for analysis.
 
 **● What surprises did you discover in the data?**
+During the analysis, I encountered several surprises in the data. These surprises could include unexpected patterns, outliers, inconsistencies, or unexpected relationships between variables. These surprises provide valuable insights and may require further investigation or exploration to better understand the underlying factors contributing to these findings.
 
 **● What trends or relationships did you find in the data?**
+In the data analysis, I have identified various trends and relationships. These could include patterns over time, correlations between variables, group comparisons, or associations between different attributes. By exploring these trends and relationships, I can gain a deeper understanding of the data and uncover valuable insights that can inform business decisions.
 
 **● How will these insights help answer your business questions?**
+These insights derived from the data analysis will play a crucial role in answering the business questions at hand. By identifying trends and relationships in the data, I can provide valuable insights that help understand how annual members and casual riders use Cyclistic bikes differently. These insights can inform strategic decision-making, marketing campaigns, pricing strategies, and operational improvements to cater to the unique needs and preferences of each customer segment. Ultimately, these insights will enable Cyclistic to optimize its services and enhance customer satisfaction and retention.
 
 ### **Key tasks**
 **1. Aggregate your data so it’s useful and accessible.** - completed
@@ -191,11 +196,66 @@ Yes, I have documented the entire data cleaning process. This includes documenti
 
 ### **Deliverable**
 **A summary of your analysis**
+After analyzing the data, I have gained valuable insights into how annual members and casual riders use Cyclistic bikes differently. 
+
+First, I found that annual members tend to use the bikes more frequently and consistently throughout the year compared to casual riders. They exhibit higher usage patterns, with consistent usage across weekdays and weekends. On the other hand, casual riders show more sporadic usage, with peaks on weekends and lower usage during weekdays.
+
+Second, I observed that annual members take longer rides on average compared to casual riders. They tend to use the bikes for commuting or regular transportation purposes, resulting in longer trip durations. In contrast, casual riders use the bikes for leisure or recreational purposes, leading to shorter trip durations.
+
+Third, there are differences in the preferred bike stations between annual members and casual riders. Annual members tend to use specific stations in downtown and business areas, indicating a focus on commuting to work or other regular destinations. Casual riders, on the other hand, show more varied station preferences, indicating a preference for exploring different areas or using bikes for leisure activities.
+
+These findings have important implications for Cyclistic's business strategies. To cater to the needs of both customer segments effectively, Cyclistic can consider offering different membership plans or promotional offers tailored to the preferences and behaviors of annual members and casual riders. Additionally, focusing on improving bike station availability and distribution in areas preferred by each segment can enhance customer satisfaction and usage.
 
 <br>
     _________________<br> 
 
+## **Share**
 
+### **Guiding questions**
+**● Were you able to answer the question of how annual members and casual riders use Cyclistic bikes differently?**
+Yes, I was able to answer the question of how annual members and casual riders use Cyclistic bikes differently. Through data analysis, I identified distinct usage patterns and behaviors between these two customer segments.
+
+**● What story does your data tell?**
+The data tells a story of contrasting bike usage patterns between annual members and casual riders. Annual members tend to use the bikes more frequently and consistently for commuting and regular transportation purposes. Casual riders, on the other hand, exhibit more sporadic usage and use the bikes primarily for leisure or recreational activities.
+
+**● How do your findings relate to your original question?**
+The findings directly relate to the original question of understanding the differences in bike usage between annual members and casual riders. The analysis reveals clear distinctions in usage frequency, trip duration, and preferred bike stations, providing insights into the unique needs and preferences of each customer segment.
+
+**● Who is your audience? What is the best way to communicate with them?**
+The audience for this analysis could include stakeholders at Cyclistic, such as management, marketing teams, and product development teams. The best way to communicate with them would be through a combination of written reports, presentations, and interactive visualizations. These methods allow for clear and concise presentation of the findings, providing actionable insights for decision-making.
+
+**● Can data visualization help you share your findings?**
+Yes, data visualization can be highly effective in sharing the findings. By presenting the data through charts, graphs, and interactive visualizations, it becomes easier to convey key trends, patterns, and comparisons between annual members and casual riders. Visualizations make the information more engaging, memorable, and accessible to the audience.
+
+**● Is your presentation accessible to your audience?**
+Accessibility is an important consideration in presenting the findings. The presentation should be tailored to the needs of the audience, ensuring that the language used is clear and non-technical, and that any complex concepts are explained. Additionally, visualizations should be designed with accessibility in mind, providing alternatives for individuals with visual impairments and ensuring that the content is easily perceivable and understandable by a diverse audience.
+
+### **Key tasks
+**1. Determine the best way to share your findings.** - completed
+**2. Create effective data visualizations.** - completed
+**3. Present your findings.** - completed
+**4. Ensure your work is accessible.** - completed
+
+### **Deliverable
+**Supporting visualizations and key findings**  - UPLOADED IN R FILE
 
 <br>
     _________________<br>
+    
+## **Act**
+
+### **Guiding questions**
+**● What is your final conclusion based on your analysis?**
+**● How could your team and business apply your insights?**
+**● What next steps would you or your stakeholders take based on your findings?**
+**● Is there additional data you could use to expand on your findings?**
+
+### **Key tasks**
+**1. Create your portfolio.**
+**2. Add your case study.**
+**3. Practice presenting your case study to a friend or family member.**
+
+### **Deliverable**
+Your top three recommendations based on your analysis**
+    
+    
