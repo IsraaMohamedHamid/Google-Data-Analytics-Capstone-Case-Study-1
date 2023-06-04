@@ -96,7 +96,7 @@ The business task is to analyze and compare the usage patterns and behaviors of 
 
 ### **Guiding questions**
 **● Where is your data located?**
-The data for the Cyclistic bike-share analysis is located in various sources, including internal databases and external data providers. 
+The data for the Cyclistic bike-share analysis is located in various sources, including internal databases and external data providers. The data was obtained from this link: https://divvy-tripdata.s3.amazonaws.com/index.html
 
 **● How is the data organized?**
 The data is organized in structured formats, such as CSV files and database tables, with each record representing a bike ride and containing relevant attributes like ride duration, start/end times, user type, and more.
